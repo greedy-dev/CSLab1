@@ -11,11 +11,10 @@ public class AppDelegate : UIApplicationDelegate
     {
         // create a new window instance based on the screen size
         Window = new UIWindow(UIScreen.MainScreen.Bounds);
+        
 
-        // create a UIViewController with a single UILabel
-        var vc = new MainVC();
-
-        Window.RootViewController = vc;
+        var mainVC = new MainVC();
+        Window.RootViewController = mainVC;
 
         // make the window visible
         Window.MakeKeyAndVisible();
