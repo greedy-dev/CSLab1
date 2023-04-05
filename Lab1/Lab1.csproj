@@ -9,7 +9,4 @@
         <Configurations>Release;Debug</Configurations>
         <Platforms>ARM64</Platforms>
     </PropertyGroup>
-    <ItemGroup>
-      <Folder Include="Models" />
-    </ItemGroup>
 </Project>
